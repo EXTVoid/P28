@@ -16,6 +16,7 @@ on:
         options:
           - openwrt-22.03
           - openwrt-23.05
+          - r281-master
       config_file:
         description: "Config Name"
         type: choice
