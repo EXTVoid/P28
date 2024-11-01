@@ -24,7 +24,7 @@ do
     # uci set wireless."$RADIO".channel="36"
   fi
   uci set wireless.default_"$RADIO".encryption="psk2"
-  uci set wireless.default_"$RADIO".key="OP${MD}"
+  uci set wireless.default_"$RADIO".key="OW${MD}"
   uci set wireless.default_"$RADIO".skip_inactivity_poll="1"
   uci set wireless.default_"$RADIO".disassoc_low_ack="0"
   # uci set wireless.default_"$RADIO".hidden="1"
